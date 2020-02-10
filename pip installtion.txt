@@ -1,0 +1,10 @@
+after you install anaconda and create virtual environment
+
+1)conda install -c anaconda numpy
+2)conda install -c blaze sqlite3 
+3)conda install -c conda-forge opencv
+4)conda install -c anaconda cmake
+5)conda install -c anaconda boost
+6)conda install -c menpo dlib
+7)pip install --no-dependencies face_recognition
+8)pip install cognitive_face
