@@ -6,14 +6,10 @@
 ### Table of Contents
 -  [Introduction](#introduction)
 -  [System Analysis](#system-analysis)
--
-
-
-
-
-
-
-
+-  [Proposed System](#proposed-system)
+-  [Requirements](#requirements)
+-  [Algorithm](#algorithm)
+-  [Implementation](#implementation)
 ## Introduction 
 Attendance is prime important for both the teacher and student of an educational organization.It is very important to keep record of the attendance. The problem arises when we think about the traditional process of taking attendance in class room which involves calling name/roll number. This process is time consuming.A face recognition based attendance system could automate the entire system and streamline the process increasing the rate and reducing the time.
 
@@ -60,9 +56,50 @@ Azure Face API is used to detect, recognize and analyze human faces in images.
 - Install all the dependency libraries such as OpenCV, Openpyxl, face_recognition,Dlib, cognitive_services, Sqlite3
 ![lib](https://user-images.githubusercontent.com/20295349/120060735-11f76800-c077-11eb-93cf-1575a17af63a.PNG)
 
-- Execute add_student.py to add student details and capture images for dataset
+- To add student details and capture images for dataset
+```
+python add_student.py
+```
 ![addstudent](https://user-images.githubusercontent.com/20295349/120060773-4408ca00-c077-11eb-9f77-2bbe5ff456ef.PNG)
 
+- Dataset folder consisting of images(Anand)
 
+ ![image](https://user-images.githubusercontent.com/20295349/120061621-b54a7c00-c07b-11eb-94eb-cc886affb1ad.png)
 
+- Folder of images in dataset
 
+![image](https://user-images.githubusercontent.com/20295349/120061633-c1ced480-c07b-11eb-9734-634823dbd983.png)
+```
+python create_person.py
+```
+![personid](https://user-images.githubusercontent.com/20295349/120061768-53d6dd00-c07c-11eb-903d-a400f9ae6c09.PNG)
+
+```
+python add_person_faces.py
+```
+![URL](https://user-images.githubusercontent.com/20295349/120061823-96001e80-c07c-11eb-91bd-fb6fd73ea398.PNG)
+```
+python train.py
+```
+![train](https://user-images.githubusercontent.com/20295349/120061863-c8118080-c07c-11eb-90d1-437857e5df5e.PNG)
+```
+python get_status.py
+```
+![status](https://user-images.githubusercontent.com/20295349/120061881-e1b2c800-c07c-11eb-9af1-7a8fe799c999.PNG)
+```
+python detect.py ./pics/test.jpg
+```
+![detect](https://user-images.githubusercontent.com/20295349/120061914-0eff7600-c07d-11eb-9180-6b6e578a3668.PNG)
+![image](https://user-images.githubusercontent.com/20295349/120061934-25a5cd00-c07d-11eb-9db7-9be0501ffca3.png)
+- Image used for detecting faces
+```
+python spreadsheet.py
+```
+![spreadsheet](https://user-images.githubusercontent.com/20295349/120061969-48d07c80-c07d-11eb-8623-2bd9367139b3.PNG)
+```
+python identify.py
+```
+![4](https://user-images.githubusercontent.com/20295349/120062011-7c130b80-c07d-11eb-8322-c6bf1d1c70b7.PNG)
+![3](https://user-images.githubusercontent.com/20295349/120062019-8503dd00-c07d-11eb-9a4d-54076c5232d3.PNG)
+
+[Back to the Top](#table-of-contents)
