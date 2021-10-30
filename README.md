@@ -11,7 +11,7 @@
 -  [Algorithm](#algorithm)
 -  [Implementation](#implementation)
 ## Introduction 
-Attendance is prime important for both the teacher and student of an educational organization.It is very important to keep record of the attendance. The problem arises when we think about the traditional process of taking attendance in class room which involves calling name/roll number. This process is time consuming.A face recognition based attendance system could automate the entire system and streamline the process increasing the rate and reducing the time.
+Attendance is primarily important for both the teacher and student of an educational organization.It is very important to keep record of the attendance. The problem arises when we think about the traditional process of taking attendance in class room which involves calling name/roll number. This process is time consuming.A face recognition based attendance system could automate the entire system and streamline the process increasing the rate and reducing the time.
 
 [Back to the Top](#table-of-contents)
 ## System Analysis
